@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./images/dp.jpg.jpeg">
+    <title>MyPortfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./images/logo.png">
+            <div class="links" id="links" id="links">
+                <i class="toggle fas fa-times" onclick="hideNav()"></i>
+                <ul>
+                    <li><i class="fas fa-home"></i> Home</li>
+                    <li> <a href="#about"><i class="fas fa-user-check"></i>About Me</a></li>
+                    <li> <a href="#skill"><i class="fas fa-key"></i>Skills</a></li>
+                    <li><a href="#interest"><i class="fas fa-heart"></i> Interest</a></li>
+                    <li> <a href="#contact"><i class="fas fa-phone"></i>Contact Me</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1-0l0T7zmG6eJOo7HrL09fL8cNIWC6M6j" target="_blank"><i class="fas fa-id-card"></i>Download CV</a></li>
+                </ul>
+            </div>
+            <i class="toggle fas fa-bars" onclick="showNav()"></i>
+        </nav>
+        <div class="content">
+            <h1><span style="color: crimson;">Hi! </span>I am Sitanshu Goradia</h1>
+            <p>Web Developer | Software Developer </p>
+            <span class="hire"><a href="#contact">Hire me</a></span>
+            <span><i class="fas fa-chevron-double-down"></i></span>
+        </div>
+    </header>
+    <!-- Start About me -->
+    <div class="about_me" id="about">
+        <h1><span>About</span> me</h1>
+        <div class="content">
+            <img src="./images/about.png">
+            <p>Enthusiast engineering undergrad with basic knowledge in coding and design.Proficient in C, Java, Python, HTML, CSS, JavaScript, Node.js and Mongodb.Curiosity and ability to learn new softwares and technologies quickly.Capable to multitask and work with team by providing valuable support.</p>
+        </div>
+    </div>
+    <!-- Start Skills -->
+    <div class="skills" id="skill">
+        <h1>My <span>Skills</span></h1>
+        <div class="tools">
+            <img src="./images/html.png">
+            <img src="./images/css.png">
+            <img src="./images/js.png">
+            <img src="./images/jquery.png">
+            <img src="./images/bootstrap.png">
+            <img src="./images/php.png">
+            <img src="./images/c.png">
+            <img src="./images/Java.png">
+            <img src="./images/node.png">
+            <img src="./images/react.png">
+            <img src="./images/express.png">
+        </div>
+        <p>These are some tools that I have learned during <strong style="color: crimson;">Engineering</strong></p>
+    </div>
+<!-- Start Interest -->
+    <div class="interest" id="interest">
+        <h1>My <span>Interest</span></h1>
+        <div class="content">
+            <img src="./images/interest.png">
+            <p>Always interested in learning and exploring new <span style="color: crimson;"> technologies</span>.Keep myself updated with the latest technologies in use and try to keep up with it.</p>
+        </div>
+    </div>
+    <!-- Start Connect ME -->
+    <div class="connect_me" id="contact">
+        <h1><span>Contact</span> me</h1>
+        <div class="social_media">
+            <div class="content">
+                <h3><a href="https://www.linkedin.com/in/sitanshu-goradia/" target="_blank">LinkedIn</a><i class="fab fa-linkedin"></i></h3>
+            </div>
+            <div class="content">
+                <h3><a href="https://github.com/sitanshu28" target="_blank">Github</a><i class="fab fa-github"></i></h3>
+            </div>
+            <div class="content">
+                <h3><a href="mailto:goradia584@gmail.com" target="_blank">Gmail</a><i class="far fa-envelope"></i></h3>
+            </div>
+            <div class="content">
+                <h3><a href="https://www.instagram.com/sitanshu_2810/" target="_blank">Instagram</a> <i class="fab fa-instagram"></i></h3>
+            </div>
+        </div>
+    </div>
+    <footer> &copy; All Rights Reserved.</footer>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var links= document.getElementById('links');
+        function showNav(){
+            links.style.right = '0';
+        }
+        function hideNav(){
+            links.style.right = '-100%';
+        }
+    </script>
+</body>
+</html>
